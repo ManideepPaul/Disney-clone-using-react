@@ -2,7 +2,3 @@
 build
 web_modules
 node_modules
-snowpack.config.js
-yarn.lock
-.cdmrc
-.babelrc
