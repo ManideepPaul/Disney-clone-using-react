@@ -1,0 +1,23 @@
+import React from "react";
+
+const Landing = () => {
+  return (
+    <div className="Landing">
+      <nav className="navbar">
+        <img src="assets/images/logo.svg" alt="" />
+        <button className="btn">LOGIN</button>
+      </nav>
+	  <div className="mainSection">
+		  <div className="allContents">
+				<img src="assets/images/cta-logo-one.svg" alt="" />
+				<button className="mainBtn">GET ALL THERE</button>
+				<p>Get Premier Access to Raya and the Last Dragon for an aditional fee with a Disney+ subscription.</p>
+				<p>As of 03/26/21, the price of Disney+ and The Disney Bundle will increase by $1.</p>
+				<img className="png" src="assets/images/cta-logo-two.png" alt="" />	  
+		  </div>
+	  </div>
+    </div>
+  );
+};
+
+export default Landing;

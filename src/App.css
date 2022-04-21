@@ -1,38 +1,65 @@
-.App {
+body {
+	font-family: 'Avenir-Roman', 'sans-serif';
+	font-size: 16px;
+	color: #f9f9f9;
+}
+
+/* nav */
+
+.navbar{
+	background-color: #040714;
+	padding: 10px 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar img {
+	width: 80px;
+}
+
+.navbar .btn {
+	color: #f9f9f9;
+	background-color: #040714;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+/* nav */
+
+/* mainSection */
+
+.mainSection {
+	background: url("assets/images/login-background.jpg") no-repeat center center/cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.allContents {
+	width: 430px;
 	text-align: center;
 }
 
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
+.mainBtn {
+	width: 100%;
+	height: 35px;
+	font-weight: 600;
+	color: #f9f9f9;
+	background-color: #0063e5;
+	border: none;
+	letter-spacing: 1.2px;
+	border-radius: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
+img {
+	width: 400px;
 }
 
-.App-header {
-	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+.mainSection p {
+	font-size: 10px;
 }
 
-.App-link {
-	color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-}
+/* mainSection */
