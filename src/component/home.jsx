@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import Slider from './carousel'
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
                 <img src="assets/images/logo.svg" alt="" />
                 <button className="btn">LOGIN</button>
             </nav>
+            <Slider />
         </div>
     )
 }
