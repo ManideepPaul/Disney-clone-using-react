@@ -1,0 +1,22 @@
+.movieDiv {
+    margin: 40px 40px 0 40px;
+    padding-bottom: 20px;
+}
+
+.movieTiles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieTiles img {
+    width: 24%;
+    border: 1px solid #6b6b6b;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px 0 black;
+}
+
+.movieDiv p{
+    font-size: 10px;
+    font-weight: 600;
+}

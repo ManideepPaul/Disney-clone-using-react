@@ -16,23 +16,15 @@ const Slider = () => {
         showThumbs={false}
         stopOnHover
       >
-        <div className="imageDiv">
-          <img class="slider" alt="" src="assets/images/badging.jpg" />
-        </div>
+        
         <div className="imageDiv">
           <img class="slider" alt="" src="assets/images/badging2.jpg" />
-        </div>
-        <div className="imageDiv">
-          <img class="slider" alt="" src="assets/images/badging3.jpg" />
         </div>
         <div className="imageDiv">
           <img class="slider" alt="" src="assets/images/badging4.jpg" />
         </div>
         <div className="imageDiv">
           <img class="slider" alt="" src="assets/images/badging5.jpg" />
-        </div>
-        <div className="imageDiv">
-          <img class="slider" alt="" src="assets/images/badging6.jpg" />
         </div>
         <div className="imageDiv">
           <img class="slider" alt="" src="assets/images/badging7.jpg" />
