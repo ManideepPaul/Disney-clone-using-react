@@ -1,6 +1,6 @@
 .main {
     background-color: #262b3e;
-    height: 100%;
+    height: max-content;
 }
 
 .logoDiv {
@@ -15,3 +15,22 @@
     border-radius: 5px;
     box-shadow: 0 10px 10px 0 black;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 750px) {
+    .logoDiv {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .logos {
+        width: 100%;
+        border: 3px solid #6b6b6b;
+        border-radius: 12px;
+    }
+}
+
+/* Responsive */

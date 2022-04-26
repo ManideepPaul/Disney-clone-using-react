@@ -20,3 +20,17 @@
     font-size: 10px;
     font-weight: 600;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 750px) {
+
+    .movieTiles {
+        flex-wrap: wrap;
+    }
+    .movieTiles img{
+        width: 48%;
+    }
+}
+
+/* Responsive */
