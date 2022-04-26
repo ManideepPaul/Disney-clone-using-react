@@ -6,7 +6,7 @@ import { stateContext } from './helpers/context'
 
 function App() {
 
-	const [state, setState] = useState('landing');
+	const [state, setState] = useState('home');
 
 	return (
 		<div className="App">
